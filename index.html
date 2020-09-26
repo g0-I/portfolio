@@ -141,7 +141,6 @@ class Human:
     birth = date(year, month, day)
     today = date.today()
     age = today.year - birth.year
-    # 今年の誕生日を迎えていなければ年齢を1減らす
     if (today.month, today.day) < (birth.month, birth.day):
       age -= 1
     return age 
