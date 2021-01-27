@@ -7,6 +7,7 @@ $(function(){
         codeText = hljs.highlightAuto(code.text()).value;
   
   code.html(cursor);
+  
   $(window).scroll(function () {
     $scroll = $(this).scrollTop();
 
